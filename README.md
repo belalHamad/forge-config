@@ -64,7 +64,7 @@ in. Or just put back the original:
 ```json
 {
   "paywallHeadline": "Unlock Forge Premium",
-  "paywallSubheadline": "Every premium feature and every template pack — including the Islamic pack.",
+  "paywallSubheadline": "Every premium feature and every pack, including the Islamic pack. Try it free for 7 days.",
   "bannerVisible": false,
   "bannerText": null,
   "anchorPriceText": null

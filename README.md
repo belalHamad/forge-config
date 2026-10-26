@@ -25,12 +25,17 @@ the App Store), what's unlocked, or any other screen.
 | Line | What it changes | Example |
 |---|---|---|
 | `"paywallHeadline"` | The big title at the top | `"Unlock Forge Premium"` |
-| `"paywallSubheadline"` | The smaller line under the title | `"Every premium feature and every template pack."` |
+| `"paywallSubheadline"` | The smaller line under the title | `"Your prayers are free, always. …"` |
 | `"bannerVisible"` | Show the highlighted banner box: `true` or `false` | `false` |
 | `"bannerText"` | The banner's text (only shown when `bannerVisible` is `true`) | `"Ramadan Mubarak"` |
 | `"anchorPriceText"` | A small grey line under the pack's price | `"Included free with Premium"` |
 
-Use `null` (no quotes) for "nothing": no subheadline, no banner text, no grey line.
+Use `null` (no quotes) for "nothing": no banner text, no grey line. For **`paywallHeadline` and
+`paywallSubheadline`, `null` means "the app's own text"**, already translated into English, Arabic and
+Turkish (since 26 Oct 2026: "Unlock Forge Premium" and "Your prayers are free, always. Premium unlocks
+everything else: unlimited habits, Screen Time, widgets, the Watch, groups you lead and the long
+picture."). Text written here replaces it in **every** language, so leave them `null` unless you mean
+to show the same words to everyone. The app also ignores a subheadline that still mentions packs.
 
 ## Example: turn on a Ramadan banner
 
